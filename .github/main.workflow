@@ -21,8 +21,14 @@ action "Master" {
   args = "branch master"
 }
 
-action "Publish" {
+action "Version" {
   needs = "Master"
+  uses = "actions/npm@master"
+  args = "version from-git"
+}
+
+action "Publish" {
+  needs = "Version"
   uses = "actions/npm@master"
   args = "publish --access public"
   secrets = ["NPM_AUTH_TOKEN"]
