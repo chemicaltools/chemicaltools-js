@@ -1,0 +1,24 @@
+{
+  "name": "chemicaltools",
+  "version": "1.0.0",
+  "description": "Chemical Tools for Chemistry students.",
+  "main": "chemicaltools.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/njzjz/chemicaltools-js.git"
+  },
+  "keywords": [
+    "chemical",
+    "tools",
+    "chemistry"
+  ],
+  "author": "Jinzhe Zeng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/njzjz/chemicaltools-js/issues"
+  },
+  "homepage": "https://github.com/njzjz/chemicaltools-js#readme"
+}
