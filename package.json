@@ -2,9 +2,9 @@
   "name": "chemicaltools",
   "version": "1.0.0",
   "description": "Chemical Tools for Chemistry students.",
-  "main": "chemicaltools.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test/test"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/njzjz/chemicaltools-js/issues"
   },
-  "homepage": "https://github.com/njzjz/chemicaltools-js#readme"
+  "homepage": "https://github.com/njzjz/chemicaltools-js#readme",
+  "dependencies": {
+    "pinyin": "^2.8.3"
+  }
 }
