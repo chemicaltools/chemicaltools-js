@@ -16,13 +16,14 @@ var calasc = function (x) {
     return 0;
 }
 var elementchoose = function (x) {
-    var i = elementinfo.length;
-    while (i--) {
-        if (elementinfo[i].symbol == x) {
-            return i;
+    var result = -1;
+    elementinfo.some(function (info) {
+        if (info.symbol == x) {
+            result = info.number - 1;
+            return
         }
-    }
-    return -1;
+    });
+    return result;
 }
 var calculateMass = function (x) {
     var output;
@@ -64,7 +65,7 @@ var calculateMass = function (x) {
                         c = c + mulif[i2];
                         i2++;
                     }
-                    i2 --;
+                    i2--;
                     mulright[n] = i2;
                     if (i2 + 1 > l)
                         y3 = "a";
@@ -89,7 +90,7 @@ var calculateMass = function (x) {
             while (i < n) {
                 i++;
                 for (var i2 = mulleft[i]; i2 <= mulright[i]; i2++)
-                    mulnumber[i2] = mulnumber[i2] * mulnum[i];
+                    mulnumber[i2] *= mulnum[i];
             }
             i = 0;
             while (i < l) {
@@ -103,7 +104,7 @@ var calculateMass = function (x) {
                     if (calasc(y2) == 2) {
                         T = y1 + y2;
                         n = elementchoose(T);
-                        if (n >= 0) {
+                        if (n != -1) {
                             if (i + 1 >= l)
                                 y3 = "1";
                             else
@@ -127,7 +128,7 @@ var calculateMass = function (x) {
                         }
                     } else if (calasc(y2) == 3) {
                         n = elementchoose(y1);
-                        if (n >= 0) {
+                        if (n != -1) {
                             if (i + 1 >= l)
                                 y3 = "a";
                             else
@@ -141,7 +142,7 @@ var calculateMass = function (x) {
                         }
                     } else {
                         n = elementchoose(y1);
-                        if (n >= 0)
+                        if (n != -1)
                             atomnumber[n] += mulnumber[i];
                     }
                 } else if (calasc(y1) == 5) {
@@ -186,7 +187,7 @@ var calculateMass = function (x) {
             mass: m,
             peratom: peratom
         };
-    } 
+    }
     return null;
 }
 module.exports = calculateMass;
