@@ -12,7 +12,7 @@ Chemical Tools for JavaScript.
 
 ## Dependencies
 
-* [pinyin](https://github.com/hotoo/pinyin)
+* [tiny-pinyin](https://github.com/creeperyang/pinyin)
 
 ## Installion
 
