@@ -2,7 +2,7 @@
 
 [![Version](https://img.shields.io/npm/v/chemicaltools.svg)](https://npmjs.com/package/chemicaltools)
 [![Build Status](https://travis-ci.com/njzjz/chemicaltools-js.png?branch=master)](https://travis-ci.com/njzjz/chemicaltools-js)
-[![codecov](https://codecov.io/gh/njzjz/ecnunetwork/branch/master/graph/badge.svg)](https://codecov.io/gh/njzjz/ecnunetwork)
+[![codecov](https://codecov.io/gh/njzjz/chemicaltools-js/branch/master/graph/badge.svg)](https://codecov.io/gh/njzjz/chemicaltools-js)
 [![Dependency Status](https://david-dm.org/njzjz/chemicaltools-js.svg)](https://david-dm.org/njzjz/chemicaltools-js)
 [![Greenkeeper badge](https://badges.greenkeeper.io/njzjz/chemicaltools-js.svg)](https://greenkeeper.io/)
 [![Downloads](https://img.shields.io/npm/dm/chemicaltools.svg)](https://npmjs.com/package/chemicaltools)
@@ -12,14 +12,29 @@ Chemical Tools for JavaScript.
 
 ## Installion
 
+### Install with npm
+
 ```sh
 npm i chemicaltools
+```
+
+And you can use in Node.js:
+
+```js
+chemicaltools = require('../index')
+```
+
+### Use in a web page
+
+Add script:
+
+```html
+<script src="https://cdn.jsdelivr.net/npm/chemicaltools@latest/bundle.js"></script>
 ```
 
 ## Usage
 
 ```js
-chemicaltools = require('../index')
 console.log(JSON.stringify(chemicaltools.searchElement("Hf")));
 // {"number":"72","name":"铪","symbol":"Hf","mass":"178.5","iupac":"Hafnium","origin":"Hafnia, the New Latin name for Copenhagen","pinyin":"ha","url":"https://i.loli.net/2018/03/31/5abf7a90c8da6.png"}
 console.log(JSON.stringify(chemicaltools.calculateMass("C6H12O6")));

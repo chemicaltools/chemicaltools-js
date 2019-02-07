@@ -4,7 +4,8 @@
   "description": "Chemical Tools for Chemistry students.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test/test"
+    "test": "nyc mocha test/test",
+    "coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov"
   },
   "repository": {
     "type": "git",
@@ -25,6 +26,7 @@
     "pinyin": "^2.8.3"
   },
   "devDependencies": {
+    "codecov": "^3.1.0",
     "mocha": "^5.2.0"
   }
 }
