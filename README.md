@@ -6,7 +6,7 @@
 [![Dependency Status](https://david-dm.org/njzjz/chemicaltools-js.svg)](https://david-dm.org/njzjz/chemicaltools-js)
 [![Greenkeeper badge](https://badges.greenkeeper.io/njzjz/chemicaltools-js.svg)](https://greenkeeper.io/)
 [![Downloads](https://img.shields.io/npm/dm/chemicaltools.svg)](https://npmjs.com/package/chemicaltools)
-[![](https://data.jsdelivr.com/v1/package/npm/chemicaltools/badge)](https://www.jsdelivr.com/package/npm/chemicaltools)
+[![](https://data.jsdelivr.com/v1/package/npm/chemicaltools/badge?style=rounded)](https://www.jsdelivr.com/package/npm/chemicaltools)
 
 Chemical Tools for JavaScript.
 
