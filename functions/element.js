@@ -8,7 +8,7 @@ var searchelement = function (input) {
     } catch (e) {
         var inputpinyin = ''
     }
-    for (i in elementinfo) {
+    for (var i in elementinfo) {
         info = elementinfo[i];
         if (info.name == input || info.number == input || info.symbol.toLowerCase() == input || info.iupac.toLowerCase() == input || info.pinyin.toLowerCase() == input || info.pinyin == inputpinyin) {
             return info;
