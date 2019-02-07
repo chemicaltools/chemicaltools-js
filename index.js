@@ -7,3 +7,4 @@ exports.calculateDeviation=require('./functions/deviation');
 var exam = require('./functions/exam');
 exports.makeQuestion = exam.makequestion;
 exports.correctAnswer = exam.correctanswer;
+exports.elementinfo = require('./info/elementinfo');
