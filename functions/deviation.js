@@ -6,7 +6,7 @@ function calculateDeviation(input) {
         var average = sum / t;
         var abssum = 0;
         var squrasum = 0;
-        for (i = 0; i < t; i++) {
+        for (var i = 0; i < t; i++) {
             var xabs = Math.abs(parseFloat(input[i]) - average);
             var xsqure = Math.pow(parseFloat(input[i]) - average, 2);
             var abssum = abssum + xabs;
