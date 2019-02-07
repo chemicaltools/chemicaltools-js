@@ -1,4 +1,4 @@
-[
+module.exports = [
     {
         "number": "1", 
         "name": "氢", 
