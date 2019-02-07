@@ -63,7 +63,7 @@ var calacid = function (c, pKa, AorB, pKw = 14) {
     var cAB = calpHtoc(pKa, c, pH);
     if (!AorB) pH = pKw - pH;
     var H = Math.pow(10, -pH);
-    var ion = [{ name: cAB ? 'H' : 'OH', c: H }];
+    var ion = [{ name: cAB ? 'H+' : 'OH-', c: H }];
 
     for (var i = 0; i < cAB.length; i++) {
         ion.push({

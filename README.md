@@ -42,7 +42,7 @@ console.log(JSON.stringify(chemicaltools.calculateMass("C6H12O6")));
 console.log(JSON.stringify(chemicaltools.calculateGas(p = 3, V = 1, n = 1)));
 // {"p":3,"V":1,"n":1,"T":0.36083714216983404}
 console.log(JSON.stringify(chemicaltools.calculateAcid(0.1, [2, 7], true)));
-// {"c":0.1,"pH":1.5683850420032601,"ion":[{"name":"H","c":0.027015621187203295},{"name":"H2A","c":0.07298430582855843},{"name":"HA-","c":0.027015594171541573},{"name":"A2-","c":9.999989999984995e-8}]}
+// {"c":0.1,"pH":1.5683850420032601,"ion":[{"name":"H+","c":0.027015621187203295},{"name":"H2A","c":0.07298430582855843},{"name":"HA-","c":0.027015594171541573},{"name":"A2-","c":9.999989999984995e-8}]}
 console.log(JSON.stringify(chemicaltools.calculateDeviation([2.232, 2.455, 2.742, 2.535, 2.362])));
 // {"input":[2.232,2.455,2.742,2.535,2.362],"average":2.4652000000000003,"average_deviation":0.13864,"relative_average_deviation":0.05623884471848126,"standard_deviation":0.05160000000000009,"relative_standard_deviation":0.3721869590305834}
 console.log(JSON.stringify(chemicaltools.makeQuestion("name", "iupac")));
