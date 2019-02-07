@@ -1,14 +1,13 @@
 var elementinfo = require("../info/elementinfo");
 
 var searchforkind = function (kind, x) {
-    var result;
-    elementinfo.some(function (info) {
+    for (var i in elementinfo) {
+        var info = elementinfo[i];
         if (info[kind] == x) {
-            result = info;
-            return;
+            return info;
         }
-    })
-    return result;
+    }
+    return null;
 }
 var correctanswer = function (question, answer, questiontype = "name", answertype = "iupac") {
     var info = searchforkind(questiontype, question);

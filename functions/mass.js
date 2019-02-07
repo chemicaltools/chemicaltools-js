@@ -16,14 +16,13 @@ var calasc = function (x) {
     return 0;
 }
 var elementchoose = function (x) {
-    var result = -1;
-    elementinfo.some(function (info) {
+    for (var i in elementinfo) {
+        var info = elementinfo[i];
         if (info.symbol == x) {
-            result = info.number - 1;
-            return
+            return info.number - 1;
         }
-    });
-    return result;
+    }
+    return -1;
 }
 var calculateMass = function (x) {
     var output;
