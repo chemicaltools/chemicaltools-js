@@ -1,6 +1,6 @@
 {
   "name": "chemicaltools",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "description": "Chemical Tools for Chemistry students.",
   "main": "index.js",
   "scripts": {
