@@ -7,6 +7,11 @@ describe('Chemical Tools', function () {
         console.log(JSON.stringify(result));
     });
 
+    it("elementpinyin", function () {
+        var result = chemicaltools.searchElement("哈");
+        console.log(JSON.stringify(result));
+    });
+
     it("mass", function () {
         var result = chemicaltools.calculateMass("C6H12O6");
         console.log(JSON.stringify(result));
