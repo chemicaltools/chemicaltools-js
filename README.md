@@ -10,6 +10,10 @@
 
 Chemical Tools for JavaScript.
 
+## Dependencies
+
+* [pinyin](https://github.com/hotoo/pinyin)
+
 ## Installion
 
 ### Install with npm
