@@ -22,7 +22,9 @@
   },
   "homepage": "https://github.com/njzjz/chemicaltools-js#readme",
   "dependencies": {
-    "mocha": "^5.2.0",
     "pinyin": "^2.8.3"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
   }
 }
