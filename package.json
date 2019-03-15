@@ -4,7 +4,7 @@
   "description": "Chemical Tools for Chemistry students.",
   "main": "src/index.js",
   "scripts": {
-    "test": "NODE_ICU_DATA='node_modules/full-icu' nyc mocha src/test/test",
+    "test": "NODE_ICU_DATA='node_modules/full-icu' nyc mocha test/test",
     "coverage": "nyc report --reporter=text-lcov > y && codecov",
     "build": "webpack -p --progress"
   },
