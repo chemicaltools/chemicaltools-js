@@ -1,4 +1,4 @@
-chemicaltools = require('../index')
+chemicaltools = require('../src/index')
 
 describe('Chemical Tools', function () {
 
