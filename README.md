@@ -33,7 +33,7 @@ chemicaltools = require('../index')
 Add script:
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/chemicaltools@latest/bundle.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chemicaltools@latest/dist/index.js"></script>
 ```
 
 ## Usage
