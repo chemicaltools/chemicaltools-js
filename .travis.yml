@@ -10,4 +10,6 @@ jobs:
       deploy:
         provider: npm
         api_key: $NPM_API_KEY
-        on: master
+        skip_cleanup: true
+        on:
+          branch: master
