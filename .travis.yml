@@ -1,5 +1,15 @@
 language: node_js
-node_js:
-  - 11
-cache: npm
-after_success: npm run coverage
+node_js: 11
+cache: yarn
+jobs:
+  include:
+    - stage: test
+      after_success: yarn coverage
+    - stage: deploy
+      script: yarn build
+      deploy:
+        provider: npm
+        api_key: $NPM_API_KEY
+        skip_cleanup: true
+        on:
+          branch: master
