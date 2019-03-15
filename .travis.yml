@@ -1,10 +1,12 @@
 language: node_js
 node_js: 11
 cache: yarn
-after_success: yarn coverage
 jobs:
   include:
-    - stage: npm release
+    - stage: test
+      after_success: yarn coverage
+  include:
+    - stage: deploy
       script: yarn build
       deploy:
         provider: npm
