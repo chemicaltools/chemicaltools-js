@@ -50,8 +50,8 @@ module.exports = {
   },
 
   output: {
-    chunkFilename: '[name].[chunkhash].js',
-    filename: '[name].[chunkhash].js',
+    chunkFilename: '[name].js',
+    filename: '[name].js',
     path: path.resolve(__dirname, 'dist')
   },
 
