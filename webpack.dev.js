@@ -26,6 +26,7 @@ const path = require('path')
  */
 
 const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
+const PacktrackerPlugin = require('@packtracker/webpack-plugin')
 
 
 
@@ -70,5 +71,13 @@ module.exports = {
       minSize: 30000,
       name: true
     }
-  }
+  },
+
+  plugins: [
+    new PacktrackerPlugin({
+      project_token: 'b308e0d4-97f4-4e5b-9fc5-5bc5e148ba06',
+      upload: true,
+      fail_build: true
+    })
+  ]
 }
