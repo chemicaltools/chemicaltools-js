@@ -34,7 +34,7 @@
     "@webpack-cli/init": "0.1.5",
     "babel-loader": "8.0.5",
     "babel-plugin-syntax-dynamic-import": "6.18.0",
-    "codecov": "3.2.0",
+    "codecov": "3.3.0",
     "full-icu": "1.2.1",
     "mocha": "6.0.2",
     "nyc": "13.3.0",
