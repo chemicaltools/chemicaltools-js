@@ -1,12 +1,15 @@
 # chemicaltools-js
 
+[![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/njzjz/chemicaltools-js/blob/master/LICENSE.MIT)
+[![License](https://img.shields.io/badge/License-Anti%20996.svg)](https://github.com/njzjz/chemicaltools-js/blob/master/LICENSE.996ICU)
 [![Version](https://img.shields.io/npm/v/chemicaltools.svg)](https://npmjs.com/package/chemicaltools)
 [![Build Status](https://travis-ci.com/njzjz/chemicaltools-js.png?branch=master)](https://travis-ci.com/njzjz/chemicaltools-js)
 [![codecov](https://codecov.io/gh/njzjz/chemicaltools-js/branch/master/graph/badge.svg)](https://codecov.io/gh/njzjz/chemicaltools-js)
 [![Dependency Status](https://david-dm.org/njzjz/chemicaltools-js.svg)](https://david-dm.org/njzjz/chemicaltools-js)
 [![Greenkeeper badge](https://badges.greenkeeper.io/njzjz/chemicaltools-js.svg)](https://greenkeeper.io/)
 [![Downloads](https://img.shields.io/npm/dm/chemicaltools.svg)](https://npmjs.com/package/chemicaltools)
-[![](https://data.jsdelivr.com/v1/package/npm/chemicaltools/badge?style=rounded)](https://www.jsdelivr.com/package/npm/chemicaltools)
+[![jsdelivr](https://data.jsdelivr.com/v1/package/npm/chemicaltools/badge?style=rounded)](https://www.jsdelivr.com/package/npm/chemicaltools)
 
 Chemical Tools for JavaScript.
 
