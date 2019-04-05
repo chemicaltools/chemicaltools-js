@@ -3,11 +3,11 @@ var elementinfo = require("../info/elementinfo");
 var calasc = function (x) {
     var c = x.substr(0, 1);
     var n = c.charCodeAt();
-    if (n > 64 & n < 91)
+    if (64 < n < 91)
         return 1;
-    else if (n > 96 & n < 123)
+    else if (96 < n < 123)
         return 2;
-    else if (n > 47 & n < 58)
+    else if (47 < n < 58)
         return 3;
     else if (n == 40 | n == 91 | n == -23640)
         return 4;
@@ -61,7 +61,7 @@ var calculateMass = function (x) {
                     var i2 = i + 1;
                     mulleft[n] = i;
                     while (c > 0) {
-                        c = c + mulif[i2];
+                        c += mulif[i2];
                         i2++;
                     }
                     i2--;
@@ -114,10 +114,10 @@ var calculateMass = function (x) {
                                 else
                                     y4 = x.substr(i + 2, 1);
                                 if (calasc(y4) == 3) {
-                                    atomnumber[n] = atomnumber[n] + parseInt(y3 + y4) * mulnumber[i];
+                                    atomnumber[n] += parseInt(y3 + y4) * mulnumber[i];
                                     i += 3;
                                 } else {
-                                    atomnumber[n] = atomnumber[n] + parseInt(y3) * mulnumber[i]
+                                    atomnumber[n] += parseInt(y3) * mulnumber[i]
                                     i += 2;
                                 }
                             } else {
@@ -161,7 +161,7 @@ var calculateMass = function (x) {
             }
             for (i = 0; i < 118; i++) {
                 if (atomnumber[i] > 0) {
-                    m = m + atomnumber[i] * parseFloat(elementinfo[i].mass);
+                    m += atomnumber[i] * parseFloat(elementinfo[i].mass);
                 }
             }
         }
