@@ -72,13 +72,4 @@ module.exports = {
       name: true
     }
   },
-
-  plugins: [
-    new PacktrackerPlugin({
-      project_token: 'b308e0d4-97f4-4e5b-9fc5-5bc5e148ba06',
-      upload: true,
-      fail_build: true,
-      branch: process.env.TRAVIS_BRANCH || "master",
-    })
-  ]
 }
