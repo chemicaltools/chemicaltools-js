@@ -1,6 +1,6 @@
 {
   "name": "chemicaltools",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Chemical Tools for Chemistry students.",
   "main": "src/index.js",
   "scripts": {
@@ -8,10 +8,10 @@
     "coverage": "nyc report --reporter=text-lcov > y && codecov",
     "build": "webpack -p --progress && bundlesize"
   },
-  "bundlesize":[
-	{
-		"path": "./dist/main.js"
-	}
+  "bundlesize": [
+    {
+      "path": "./dist/main.js"
+    }
   ],
   "repository": {
     "type": "git",
