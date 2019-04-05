@@ -2,7 +2,7 @@
   "name": "chemicaltools",
   "version": "1.2.0",
   "description": "Chemical Tools for Chemistry students.",
-  "main": "src/main.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "NODE_ICU_DATA='node_modules/full-icu' nyc mocha test/test",
     "coverage": "nyc report --reporter=text-lcov > y && codecov",
@@ -10,7 +10,7 @@
   },
   "bundlesize":[
 	{
-		"path": "./dist/index.js"
+		"path": "./dist/main.js"
 	}
   ],
   "repository": {
