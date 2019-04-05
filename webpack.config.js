@@ -26,7 +26,6 @@ const path = require('path')
  */
 
 const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
-const PacktrackerPlugin = require('@packtracker/webpack-plugin')
 
 
 
