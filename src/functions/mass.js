@@ -1,13 +1,12 @@
 var elementinfo = require("../info/elementinfo");
 
 var calasc = function (x) {
-    var c = x.substr(0, 1);
-    var n = c.charCodeAt();
-    if (64 < n < 91)
+    var n = x[0].charCodeAt();
+    if (n > 64 && n < 91)
         return 1;
-    else if (96 < n < 123)
+    else if (n > 96 && n < 123)
         return 2;
-    else if (47 < n < 58)
+    else if (n > 47 && n < 58)
         return 3;
     else if (n == 40 | n == 91 | n == -23640)
         return 4;
@@ -24,10 +23,17 @@ var elementchoose = function (x) {
     }
     return -1;
 }
+var getNumber = function (x, index){
+    var num = "";
+    while (index < x.length && calasc(x[index]) == 3){
+        num += x[index];
+        index++;
+    }
+    return {n: parseInt(num)||1, l:num.length}
+}
+
 var calculateMass = function (x) {
-    var output;
     var l = x.length;
-    var i = 0;
     var s = 0;
     var m = 0;
     var massPer = new Array();
@@ -37,12 +43,10 @@ var calculateMass = function (x) {
     var mulleft = new Array();
     var mulright = new Array();
     var mulnum = new Array();
-    var n, i2, c, y1, y2, y3, y4, T;
     if (l > 0) {
-        while (i < l) {
-            i++;
+        for (var i = 0; i < l; i++) {
             mulnumber[i] = 1;
-            y1 = x.substr(i - 1, 1);
+            y1 = x[i];
             if (calasc(y1) == 4)
                 mulif[i] = 1;
             else if (calasc(y1) == 5)
@@ -52,111 +56,42 @@ var calculateMass = function (x) {
             s += mulif[i];
         }
         if (s == 0) {
-            i = 1;
-            var n = 0;
-            while (i < l) {
+            var nn = 0;
+            for (var i = 0; i < l; i++) {
                 if (mulif[i] == 1) {
-                    n++;
                     var c = 1;
                     var i2 = i + 1;
-                    mulleft[n] = i;
+                    mulleft[nn] = i;
                     while (c > 0) {
                         c += mulif[i2];
                         i2++;
                     }
-                    i2--;
-                    mulright[n] = i2;
-                    if (i2 + 1 > l)
-                        y3 = "a";
-                    else
-                        y3 = x.substr(i2, 1);
-                    if (calasc(y3) == 3) {
-                        if (i2 + 2 > l)
-                            y4 = "a";
-                        else
-                            y4 = x.substr(i2 + 1, 1);
-                        if (calasc(y4) == 3)
-                            mulnum[n] = parseInt(y3 + y4);
-                        else
-                            mulnum[n] = parseInt(y3);
-                    } else {
-                        mulnum[n] = 1;
-                    }
+                    mulright[nn] = i2;
+                    mulnum[nn] = getNumber(x, i2).n;
+                    nn++;
                 }
-                i++;
             }
-            i = 0;
-            while (i < n) {
-                i++;
-                for (var i2 = mulleft[i]; i2 <= mulright[i]; i2++)
+            for (var i = 0; i < nn; i++) {
+                for (var i2 = mulleft[i]; i2 < mulright[i]; i2++)
                     mulnumber[i2] *= mulnum[i];
             }
-            i = 0;
-            while (i < l) {
-                i++;
-                y1 = x.substr(i - 1, 1);
+            for (var i = 0; i < l; i++) {
+                var y1 = x[i];
                 if (calasc(y1) == 1) {
-                    if (i >= l)
-                        y2 = "1";
-                    else
-                        y2 = x.substr(i, 1);
+                    var y2 = x[i+1] || "1";
+					var i2 = i;
                     if (calasc(y2) == 2) {
-                        T = y1 + y2;
-                        n = elementchoose(T);
-                        if (n != -1) {
-                            if (i + 1 >= l)
-                                y3 = "1";
-                            else
-                                y3 = x.substr(i + 1, 1);
-                            if (calasc(y3) == 3) {
-                                if (i + 2 >= l)
-                                    y4 = "a";
-                                else
-                                    y4 = x.substr(i + 2, 1);
-                                if (calasc(y4) == 3) {
-                                    atomnumber[n] += parseInt(y3 + y4) * mulnumber[i];
-                                    i += 3;
-                                } else {
-                                    atomnumber[n] += parseInt(y3) * mulnumber[i]
-                                    i += 2;
-                                }
-                            } else {
-                                atomnumber[n] += mulnumber[i];
-                                i++;
-                            }
-                        }
-                    } else if (calasc(y2) == 3) {
-                        n = elementchoose(y1);
-                        if (n != -1) {
-                            if (i + 1 >= l)
-                                y3 = "a";
-                            else
-                                y3 = x.substr(i + 1, 1);
-                            if (calasc(y3) == 3) {
-                                atomnumber[n] += parseInt(y2 + y3) * mulnumber[i];
-                                i += 2;
-                            } else {
-                                atomnumber[n] += parseInt(y2) * mulnumber[i];
-                            }
-                        }
-                    } else {
-                        n = elementchoose(y1);
-                        if (n != -1)
-                            atomnumber[n] += mulnumber[i];
-                    }
+						y1+=y2;
+						i++;
+                    } 
+                    var n = elementchoose(y1);
+                    if (n != -1){
+						num = getNumber(x, i+1);
+                        atomnumber[n] += num.n * mulnumber[i2];
+						i += num.l;
+					}
                 } else if (calasc(y1) == 5) {
-                    if (i >= l)
-                        y2 = "a";
-                    else
-                        y2 = x.substr(i, 1);
-                    if (calasc(y2) == 3) {
-                        if (i + 1 >= l)
-                            y2 = "a";
-                        else
-                            y3 = x.substr(i + 1, 1);
-                        if (calasc(y3) == 3) i++;
-                        i++;
-                    }
+                    i += getNumber(x, i+1).l;
                 }
             }
             for (i = 0; i < 118; i++) {
