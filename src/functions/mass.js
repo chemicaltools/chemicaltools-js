@@ -1,7 +1,7 @@
 var elementinfo = require("../info/elementinfo");
 
 var calasc = function (x) {
-    var c = x.substr(0, 1);
+    var c = x[0];
     var n = c.charCodeAt();
     if (64 < n < 91)
         return 1;
@@ -42,7 +42,7 @@ var calculateMass = function (x) {
         while (i < l) {
             i++;
             mulnumber[i] = 1;
-            y1 = x.substr(i - 1, 1);
+            y1 = x[i-1];
             if (calasc(y1) == 4)
                 mulif[i] = 1;
             else if (calasc(y1) == 5)
@@ -69,12 +69,12 @@ var calculateMass = function (x) {
                     if (i2 + 1 > l)
                         y3 = "a";
                     else
-                        y3 = x.substr(i2, 1);
+                        y3 = x[i2];
                     if (calasc(y3) == 3) {
                         if (i2 + 2 > l)
                             y4 = "a";
                         else
-                            y4 = x.substr(i2 + 1, 1);
+                            y4 = x[i2 + 1];
                         if (calasc(y4) == 3)
                             mulnum[n] = parseInt(y3 + y4);
                         else
@@ -94,12 +94,12 @@ var calculateMass = function (x) {
             i = 0;
             while (i < l) {
                 i++;
-                y1 = x.substr(i - 1, 1);
+                y1 = x[i - 1];
                 if (calasc(y1) == 1) {
                     if (i >= l)
                         y2 = "1";
                     else
-                        y2 = x.substr(i, 1);
+                        y2 = x[i];
                     if (calasc(y2) == 2) {
                         T = y1 + y2;
                         n = elementchoose(T);
@@ -107,12 +107,12 @@ var calculateMass = function (x) {
                             if (i + 1 >= l)
                                 y3 = "1";
                             else
-                                y3 = x.substr(i + 1, 1);
+                                y3 = x[i + 1];
                             if (calasc(y3) == 3) {
                                 if (i + 2 >= l)
                                     y4 = "a";
                                 else
-                                    y4 = x.substr(i + 2, 1);
+                                    y4 = x[i + 2]);
                                 if (calasc(y4) == 3) {
                                     atomnumber[n] += parseInt(y3 + y4) * mulnumber[i];
                                     i += 3;
@@ -131,7 +131,7 @@ var calculateMass = function (x) {
                             if (i + 1 >= l)
                                 y3 = "a";
                             else
-                                y3 = x.substr(i + 1, 1);
+                                y3 = x[i + 1];
                             if (calasc(y3) == 3) {
                                 atomnumber[n] += parseInt(y2 + y3) * mulnumber[i];
                                 i += 2;
@@ -148,12 +148,12 @@ var calculateMass = function (x) {
                     if (i >= l)
                         y2 = "a";
                     else
-                        y2 = x.substr(i, 1);
+                        y2 = x[i];
                     if (calasc(y2) == 3) {
                         if (i + 1 >= l)
                             y2 = "a";
                         else
-                            y3 = x.substr(i + 1, 1);
+                            y3 = x[i + 1];
                         if (calasc(y3) == 3) i++;
                         i++;
                     }
