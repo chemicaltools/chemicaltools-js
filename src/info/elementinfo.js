@@ -1,4 +1,4 @@
-var loli20180331="https://i.loli.net/2018/03/31/";
+var loli20180331="https://i.loli.net/2018/03/31/5abf7";
 module.exports = [
     {
         "number": "1",
@@ -8,7 +8,7 @@ module.exports = [
         "iupac": "Hydrogen",
         "origin": "Composed of the Greek elements hydro-and -gen meaning water-forming",
         "pinyin": "qing",
-        "url": loli20180331+"5abf78f72c517.png"
+        "url": loli20180331+"8f72c517.png"
     },
     {
         "number": "2",
@@ -18,7 +18,7 @@ module.exports = [
         "iupac": "Helium",
         "origin": "The Greek helios, sun",
         "pinyin": "hai",
-        "url": loli20180331+"5abf78fb29b3e.png"
+        "url": loli20180331+"8fb29b3e.png"
     },
     {
         "number": "3",
@@ -28,7 +28,7 @@ module.exports = [
         "iupac": "Lithium",
         "origin": "The Greek lithos, stone",
         "pinyin": "li",
-        "url": loli20180331+"5abf78ff61f6d.png"
+        "url": loli20180331+"8ff61f6d.png"
     },
     {
         "number": "4",
@@ -38,7 +38,7 @@ module.exports = [
         "iupac": "Beryllium",
         "origin": "Beryl, a mineral",
         "pinyin": "pi",
-        "url": loli20180331+"5abf79033b661.png"
+        "url": loli20180331+"9033b661.png"
     },
     {
         "number": "5",
@@ -48,7 +48,7 @@ module.exports = [
         "iupac": "Boron",
         "origin": "Borax, a mineral",
         "pinyin": "peng",
-        "url": loli20180331+"5abf790632b69.png"
+        "url": loli20180331+"90632b69.png"
     },
     {
         "number": "6",
@@ -58,7 +58,7 @@ module.exports = [
         "iupac": "Carbon",
         "origin": "The Latin carbo, coal",
         "pinyin": "tan",
-        "url": loli20180331+"5abf790a5d246.png"
+        "url": loli20180331+"90a5d246.png"
     },
     {
         "number": "7",
@@ -68,7 +68,7 @@ module.exports = [
         "iupac": "Nitrogen",
         "origin": "The Greek nitron and -gen meaning niter-forming",
         "pinyin": "dan",
-        "url": loli20180331+"5abf790f6de41.png"
+        "url": loli20180331+"90f6de41.png"
     },
     {
         "number": "8",
@@ -78,7 +78,7 @@ module.exports = [
         "iupac": "Oxygen",
         "origin": "From the Greek oxy-, both sharp and acid, and -gen, meaning acid-forming",
         "pinyin": "yang",
-        "url": loli20180331+"5abf791367638.png"
+        "url": loli20180331+"91367638.png"
     },
     {
         "number": "9",
@@ -88,7 +88,7 @@ module.exports = [
         "iupac": "Fluorine",
         "origin": "The Latin fluere, to flow",
         "pinyin": "fu",
-        "url": loli20180331+"5abf791b56c50.png"
+        "url": loli20180331+"91b56c50.png"
     },
     {
         "number": "10",
@@ -98,7 +98,7 @@ module.exports = [
         "iupac": "Neon",
         "origin": "The Greek neos, meaning new",
         "pinyin": "nai",
-        "url": loli20180331+"5abf79201479d.png"
+        "url": loli20180331+"9201479d.png"
     },
     {
         "number": "11",
@@ -108,7 +108,7 @@ module.exports = [
         "iupac": "Sodium",
         "origin": "The English word soda (natrium in Latin)",
         "pinyin": "na",
-        "url": loli20180331+"5abf79262c0c0.png"
+        "url": loli20180331+"9262c0c0.png"
     },
     {
         "number": "12",
@@ -118,7 +118,7 @@ module.exports = [
         "iupac": "Magnesium",
         "origin": "Magnesia, a district of Eastern Thessalyin Greece",
         "pinyin": "mei",
-        "url": loli20180331+"5abf792b3a942.png"
+        "url": loli20180331+"92b3a942.png"
     },
     {
         "number": "13",
@@ -128,7 +128,7 @@ module.exports = [
         "iupac": "Aluminium",
         "origin": "From alumina, a compound (originally aluminum)",
         "pinyin": "lv",
-        "url": loli20180331+"5abf792fdb969.png"
+        "url": loli20180331+"92fdb969.png"
     },
     {
         "number": "14",
@@ -138,7 +138,7 @@ module.exports = [
         "iupac": "Silicon",
         "origin": "From the Latin silex, flint (originally silicium)",
         "pinyin": "gui",
-        "url": loli20180331+"5abf793f68260.png"
+        "url": loli20180331+"93f68260.png"
     },
     {
         "number": "15",
@@ -148,7 +148,7 @@ module.exports = [
         "iupac": "Phosphorus",
         "origin": "The Greek phoosphoros, carrying light",
         "pinyin": "lin",
-        "url": loli20180331+"5abf7943de158.png"
+        "url": loli20180331+"943de158.png"
     },
     {
         "number": "16",
@@ -158,7 +158,7 @@ module.exports = [
         "iupac": "Sulfur",
         "origin": "The Latin sulphur, fire and brimstone",
         "pinyin": "liu",
-        "url": loli20180331+"5abf7948aa7db.png"
+        "url": loli20180331+"948aa7db.png"
     },
     {
         "number": "17",
@@ -168,7 +168,7 @@ module.exports = [
         "iupac": "Chlorine",
         "origin": "The Greek chloros, greenish yellow",
         "pinyin": "lv",
-        "url": loli20180331+"5abf794c1190c.png"
+        "url": loli20180331+"94c1190c.png"
     },
     {
         "number": "18",
@@ -178,7 +178,7 @@ module.exports = [
         "iupac": "Argon",
         "origin": "The Greek argos, idle",
         "pinyin": "ya",
-        "url": loli20180331+"5abf794f59742.png"
+        "url": loli20180331+"94f59742.png"
     },
     {
         "number": "19",
@@ -188,7 +188,7 @@ module.exports = [
         "iupac": "Potassium",
         "origin": "New Latin potassa, potash (kalium in Latin)",
         "pinyin": "jia",
-        "url": loli20180331+"5abf7955eb159.png"
+        "url": loli20180331+"955eb159.png"
     },
     {
         "number": "20",
@@ -198,7 +198,7 @@ module.exports = [
         "iupac": "Calcium",
         "origin": "The Latin calx, lime",
         "pinyin": "gai",
-        "url": loli20180331+"5abf79677caef.png"
+        "url": loli20180331+"9677caef.png"
     },
     {
         "number": "21",
@@ -208,7 +208,7 @@ module.exports = [
         "iupac": "Scandium",
         "origin": "Scandia, the Latin name for Scandinavia",
         "pinyin": "kang",
-        "url": loli20180331+"5abf796b46bc9.png"
+        "url": loli20180331+"96b46bc9.png"
     },
     {
         "number": "22",
@@ -218,7 +218,7 @@ module.exports = [
         "iupac": "Titanium",
         "origin": "Titans, the sons of the Earth goddess of Greek mythology",
         "pinyin": "tai",
-        "url": loli20180331+"5abf79707833d.png"
+        "url": loli20180331+"9707833d.png"
     },
     {
         "number": "23",
@@ -228,7 +228,7 @@ module.exports = [
         "iupac": "Vanadium",
         "origin": "Vanadis, an Old Norse name for the Scandinavian goddess Freyja",
         "pinyin": "fan",
-        "url": loli20180331+"5abf79747c418.png"
+        "url": loli20180331+"9747c418.png"
     },
     {
         "number": "24",
@@ -238,7 +238,7 @@ module.exports = [
         "iupac": "Chromium",
         "origin": "The Greek chroma, color",
         "pinyin": "ge",
-        "url": loli20180331+"5abf79781844b.png"
+        "url": loli20180331+"9781844b.png"
     },
     {
         "number": "25",
@@ -248,7 +248,7 @@ module.exports = [
         "iupac": "Manganese",
         "origin": "Corrupted from magnesia negra, see Magnesium",
         "pinyin": "meng",
-        "url": loli20180331+"5abf797c8c1a1.png"
+        "url": loli20180331+"97c8c1a1.png"
     },
     {
         "number": "26",
@@ -258,7 +258,7 @@ module.exports = [
         "iupac": "Iron",
         "origin": "English word (ferrum in Latin)",
         "pinyin": "tie",
-        "url": loli20180331+"5abf7981b875f.png"
+        "url": loli20180331+"981b875f.png"
     },
     {
         "number": "27",
@@ -268,7 +268,7 @@ module.exports = [
         "iupac": "Cobalt",
         "origin": "The German word Kobold, goblin",
         "pinyin": "gu",
-        "url": loli20180331+"5abf7985b8929.png"
+        "url": loli20180331+"985b8929.png"
     },
     {
         "number": "28",
@@ -278,7 +278,7 @@ module.exports = [
         "iupac": "Nickel",
         "origin": "From Swedish kopparnickel, containing the German word Nickel, goblin",
         "pinyin": "nie",
-        "url": loli20180331+"5abf7989ec197.png"
+        "url": loli20180331+"989ec197.png"
     },
     {
         "number": "29",
@@ -288,7 +288,7 @@ module.exports = [
         "iupac": "Copper",
         "origin": "English word (Latin cuprum)",
         "pinyin": "tong",
-        "url": loli20180331+"5abf798f3125a.png"
+        "url": loli20180331+"98f3125a.png"
     },
     {
         "number": "30",
@@ -298,7 +298,7 @@ module.exports = [
         "iupac": "Zinc",
         "origin": "The German Zink",
         "pinyin": "xin",
-        "url": loli20180331+"5abf7994618db.png"
+        "url": loli20180331+"994618db.png"
     },
     {
         "number": "31",
@@ -308,7 +308,7 @@ module.exports = [
         "iupac": "Gallium",
         "origin": "Gallia, the Latin name for France",
         "pinyin": "jia",
-        "url": loli20180331+"5abf7998dc937.png"
+        "url": loli20180331+"998dc937.png"
     },
     {
         "number": "32",
@@ -318,7 +318,7 @@ module.exports = [
         "iupac": "Germanium",
         "origin": "Germania, the Latin name for Germany",
         "pinyin": "zhe",
-        "url": loli20180331+"5abf799f2c940.png"
+        "url": loli20180331+"99f2c940.png"
     },
     {
         "number": "33",
@@ -328,7 +328,7 @@ module.exports = [
         "iupac": "Arsenic",
         "origin": "English word (Latin arsenicum)",
         "pinyin": "shen",
-        "url": loli20180331+"5abf79a67057f.png"
+        "url": loli20180331+"9a67057f.png"
     },
     {
         "number": "34",
@@ -338,7 +338,7 @@ module.exports = [
         "iupac": "Selenium",
         "origin": "The Greek selene, moon",
         "pinyin": "xi",
-        "url": loli20180331+"5abf79ac88218.png"
+        "url": loli20180331+"9ac88218.png"
     },
     {
         "number": "35",
@@ -348,7 +348,7 @@ module.exports = [
         "iupac": "Bromine",
         "origin": "The Greek bromos, stench",
         "pinyin": "xiu",
-        "url": loli20180331+"5abf79b476a12.png"
+        "url": loli20180331+"9b476a12.png"
     },
     {
         "number": "36",
@@ -358,7 +358,7 @@ module.exports = [
         "iupac": "Krypton",
         "origin": "The Greek kryptos, hidden",
         "pinyin": "ke",
-        "url": loli20180331+"5abf79b89efff.png"
+        "url": loli20180331+"9b89efff.png"
     },
     {
         "number": "37",
@@ -368,7 +368,7 @@ module.exports = [
         "iupac": "Rubidium",
         "origin": "The Latin rubidus, deep red",
         "pinyin": "ru",
-        "url": loli20180331+"5abf79bce65d1.png"
+        "url": loli20180331+"9bce65d1.png"
     },
     {
         "number": "38",
@@ -378,7 +378,7 @@ module.exports = [
         "iupac": "Strontium",
         "origin": "Strontian, a small town in Scotland",
         "pinyin": "si",
-        "url": loli20180331+"5abf79c2288fa.png"
+        "url": loli20180331+"9c2288fa.png"
     },
     {
         "number": "39",
@@ -388,7 +388,7 @@ module.exports = [
         "iupac": "Yttrium",
         "origin": "Ytterby, Sweden",
         "pinyin": "yi",
-        "url": loli20180331+"5abf79c7d69bf.png"
+        "url": loli20180331+"9c7d69bf.png"
     },
     {
         "number": "40",
@@ -398,7 +398,7 @@ module.exports = [
         "iupac": "Zirconium",
         "origin": "Persian Zargun, gold-colored; German Zirkoon, jargoon",
         "pinyin": "gao",
-        "url": loli20180331+"5abf79cdaddad.png"
+        "url": loli20180331+"9cdaddad.png"
     },
     {
         "number": "41",
@@ -408,7 +408,7 @@ module.exports = [
         "iupac": "Niobium",
         "origin": "Niobe, daughter of king Tantalus from Greek mythology",
         "pinyin": "ni",
-        "url": loli20180331+"5abf79d3444c8.png"
+        "url": loli20180331+"9d3444c8.png"
     },
     {
         "number": "42",
@@ -418,7 +418,7 @@ module.exports = [
         "iupac": "Molybdenum",
         "origin": "The Greek molybdos meaning lead",
         "pinyin": "mu",
-        "url": loli20180331+"5abf79d9864d1.png"
+        "url": loli20180331+"9d9864d1.png"
     },
     {
         "number": "43",
@@ -428,7 +428,7 @@ module.exports = [
         "iupac": "Technetium",
         "origin": "The Greek tekhnètos meaning artificial",
         "pinyin": "de",
-        "url": loli20180331+"5abf79e323d60.png"
+        "url": loli20180331+"9e323d60.png"
     },
     {
         "number": "44",
@@ -438,7 +438,7 @@ module.exports = [
         "iupac": "Ruthenium",
         "origin": "Ruthenia, the New Latin name for Russia",
         "pinyin": "liao",
-        "url": loli20180331+"5abf79e898712.png"
+        "url": loli20180331+"9e898712.png"
     },
     {
         "number": "45",
@@ -448,7 +448,7 @@ module.exports = [
         "iupac": "Rhodium",
         "origin": "The Greek rhodos, meaning rose coloured",
         "pinyin": "lao",
-        "url": loli20180331+"5abf79ee94dd7.png"
+        "url": loli20180331+"9ee94dd7.png"
     },
     {
         "number": "46",
@@ -458,7 +458,7 @@ module.exports = [
         "iupac": "Palladium",
         "origin": "The then recently discovered asteroid Pallas, considered a planet at the time",
         "pinyin": "ba",
-        "url": loli20180331+"5abf79f42ad2a.png"
+        "url": loli20180331+"9f42ad2a.png"
     },
     {
         "number": "47",
@@ -468,7 +468,7 @@ module.exports = [
         "iupac": "Silver",
         "origin": "English word (argentum in Latin)",
         "pinyin": "yin",
-        "url": loli20180331+"5abf79f99fb02.png"
+        "url": loli20180331+"9f99fb02.png"
     },
     {
         "number": "48",
@@ -478,7 +478,7 @@ module.exports = [
         "iupac": "Cadmium",
         "origin": "The New Latin cadmia, from King Kadmos",
         "pinyin": "ge",
-        "url": loli20180331+"5abf79fe90314.png"
+        "url": loli20180331+"9fe90314.png"
     },
     {
         "number": "49",
@@ -488,7 +488,7 @@ module.exports = [
         "iupac": "Indium",
         "origin": "Indigo",
         "pinyin": "yin",
-        "url": loli20180331+"5abf7a0489e3b.png"
+        "url": loli20180331+"a0489e3b.png"
     },
     {
         "number": "50",
@@ -498,7 +498,7 @@ module.exports = [
         "iupac": "Tin",
         "origin": "English word (stannum in Latin)",
         "pinyin": "xi",
-        "url": loli20180331+"5abf7a0a9fe69.png"
+        "url": loli20180331+"a0a9fe69.png"
     },
     {
         "number": "51",
@@ -508,7 +508,7 @@ module.exports = [
         "iupac": "Antimony",
         "origin": "Composed from the Greek anti, against, and monos, alone (stibium in Latin)",
         "pinyin": "ti",
-        "url": loli20180331+"5abf7a1096c2f.png"
+        "url": loli20180331+"a1096c2f.png"
     },
     {
         "number": "52",
@@ -518,7 +518,7 @@ module.exports = [
         "iupac": "Tellurium",
         "origin": "Latin tellus, earth",
         "pinyin": "di",
-        "url": loli20180331+"5abf7a15d89df.png"
+        "url": loli20180331+"a15d89df.png"
     },
     {
         "number": "53",
@@ -528,7 +528,7 @@ module.exports = [
         "iupac": "Iodine",
         "origin": "French iode (after the Greek ioeides, violet)",
         "pinyin": "dian",
-        "url": loli20180331+"5abf7a1be4e4f.png"
+        "url": loli20180331+"a1be4e4f.png"
     },
     {
         "number": "54",
@@ -538,7 +538,7 @@ module.exports = [
         "iupac": "Xenon",
         "origin": "The Greek xenos, strange",
         "pinyin": "xian",
-        "url": loli20180331+"5abf7a2170cef.png"
+        "url": loli20180331+"a2170cef.png"
     },
     {
         "number": "55",
@@ -548,7 +548,7 @@ module.exports = [
         "iupac": "Caesium",
         "origin": "The Latin caesius, sky blue",
         "pinyin": "se",
-        "url": loli20180331+"5abf7a294fc17.png"
+        "url": loli20180331+"a294fc17.png"
     },
     {
         "number": "56",
@@ -558,7 +558,7 @@ module.exports = [
         "iupac": "Barium",
         "origin": "The Greek barys, heavy",
         "pinyin": "bei",
-        "url": loli20180331+"5abf7a2f91564.png"
+        "url": loli20180331+"a2f91564.png"
     },
     {
         "number": "57",
@@ -568,7 +568,7 @@ module.exports = [
         "iupac": "Lanthanum",
         "origin": "The Greek lanthanein, to lie hidden",
         "pinyin": "lan",
-        "url": loli20180331+"5abf7a37b892c.png"
+        "url": loli20180331+"a37b892c.png"
     },
     {
         "number": "58",
@@ -578,7 +578,7 @@ module.exports = [
         "iupac": "Cerium",
         "origin": "The then recently discovered asteroid Ceres, considered a planet at the time",
         "pinyin": "shi",
-        "url": loli20180331+"5abf7a3f4e54a.png"
+        "url": loli20180331+"a3f4e54a.png"
     },
     {
         "number": "59",
@@ -588,7 +588,7 @@ module.exports = [
         "iupac": "Praseodymium",
         "origin": "The Greek praseios didymos meaning green twin",
         "pinyin": "pu",
-        "url": loli20180331+"5abf7a46ef559.png"
+        "url": loli20180331+"a46ef559.png"
     },
     {
         "number": "60",
@@ -598,7 +598,7 @@ module.exports = [
         "iupac": "Neodymium",
         "origin": "The Greek neos didymos meaning new twin",
         "pinyin": "nv",
-        "url": loli20180331+"5abf7a4e1f6a8.png"
+        "url": loli20180331+"a4e1f6a8.png"
     },
     {
         "number": "61",
@@ -608,7 +608,7 @@ module.exports = [
         "iupac": "Promethium",
         "origin": "Prometheus of Greek mythology who stole fire from the Gods and gave it to humans",
         "pinyin": "po",
-        "url": loli20180331+"5abf7a5723f68.png"
+        "url": loli20180331+"a5723f68.png"
     },
     {
         "number": "62",
@@ -618,7 +618,7 @@ module.exports = [
         "iupac": "Samarium",
         "origin": "Samarskite, the name of the mineral from which it was first isolated",
         "pinyin": "shan",
-        "url": loli20180331+"5abf7a614b52c.png"
+        "url": loli20180331+"a614b52c.png"
     },
     {
         "number": "63",
@@ -628,7 +628,7 @@ module.exports = [
         "iupac": "Europium",
         "origin": "Europe",
         "pinyin": "you",
-        "url": loli20180331+"5abf7a69cf979.png"
+        "url": loli20180331+"a69cf979.png"
     },
     {
         "number": "64",
@@ -638,7 +638,7 @@ module.exports = [
         "iupac": "Gadolinium",
         "origin": "Johan Gadolin, chemist, physicist and mineralogist",
         "pinyin": "ga",
-        "url": loli20180331+"5abf7a7097f4e.png"
+        "url": loli20180331+"a7097f4e.png"
     },
     {
         "number": "65",
@@ -648,7 +648,7 @@ module.exports = [
         "iupac": "Terbium",
         "origin": "Ytterby, Sweden",
         "pinyin": "te",
-        "url": loli20180331+"5abf7a77eab76.png"
+        "url": loli20180331+"a77eab76.png"
     },
     {
         "number": "66",
@@ -658,7 +658,7 @@ module.exports = [
         "iupac": "Dysprosium",
         "origin": "The Greek dysprositos, hard to get",
         "pinyin": "di",
-        "url": loli20180331+"5abf7a7fb8f8a.png"
+        "url": loli20180331+"a7fb8f8a.png"
     },
     {
         "number": "67",
@@ -668,7 +668,7 @@ module.exports = [
         "iupac": "Holmium",
         "origin": "Holmia, the New Latin name for Stockholm",
         "pinyin": "huo",
-        "url": loli20180331+"5abf7a8cd6e7d.png"
+        "url": loli20180331+"a8cd6e7d.png"
     },
     {
         "number": "68",
@@ -678,7 +678,7 @@ module.exports = [
         "iupac": "Erbium",
         "origin": "Ytterby, Sweden",
         "pinyin": "er",
-        "url": loli20180331+"5abf7a8ddbe89.png"
+        "url": loli20180331+"a8ddbe89.png"
     },
     {
         "number": "69",
@@ -688,7 +688,7 @@ module.exports = [
         "iupac": "Thulium",
         "origin": "Thule, the ancient name for Scandinavia",
         "pinyin": "diu",
-        "url": loli20180331+"5abf7a8ea3d71.png"
+        "url": loli20180331+"a8ea3d71.png"
     },
     {
         "number": "70",
@@ -698,7 +698,7 @@ module.exports = [
         "iupac": "Ytterbium",
         "origin": "Ytterby, Sweden",
         "pinyin": "yi",
-        "url": loli20180331+"5abf7a8f55230.png"
+        "url": loli20180331+"a8f55230.png"
     },
     {
         "number": "71",
@@ -708,7 +708,7 @@ module.exports = [
         "iupac": "Lutetium",
         "origin": "Lutetia, the Latin name for Paris",
         "pinyin": "lu",
-        "url": loli20180331+"5abf7a90121e3.png"
+        "url": loli20180331+"a90121e3.png"
     },
     {
         "number": "72",
@@ -718,7 +718,7 @@ module.exports = [
         "iupac": "Hafnium",
         "origin": "Hafnia, the New Latin name for Copenhagen",
         "pinyin": "ha",
-        "url": loli20180331+"5abf7a90c8da6.png"
+        "url": loli20180331+"a90c8da6.png"
     },
     {
         "number": "73",
@@ -728,7 +728,7 @@ module.exports = [
         "iupac": "Tantalum",
         "origin": "King Tantalus, father of Niobe from Greek mythology",
         "pinyin": "tan",
-        "url": loli20180331+"5abf7a9242b2e.png"
+        "url": loli20180331+"a9242b2e.png"
     },
     {
         "number": "74",
@@ -738,7 +738,7 @@ module.exports = [
         "iupac": "Tungsten",
         "origin": "The Swedish tung sten, heavy stone (W is wolfram, the old name of the tungsten mineral wolframite)",
         "pinyin": "wu",
-        "url": loli20180331+"5abf7a92de9ca.png"
+        "url": loli20180331+"a92de9ca.png"
     },
     {
         "number": "75",
@@ -748,7 +748,7 @@ module.exports = [
         "iupac": "Rhenium",
         "origin": "Rhenus, the Latin name for the river Rhine",
         "pinyin": "lai",
-        "url": loli20180331+"5abf7a93849a1.png"
+        "url": loli20180331+"a93849a1.png"
     },
     {
         "number": "76",
@@ -758,7 +758,7 @@ module.exports = [
         "iupac": "Osmium",
         "origin": "The Greek osmè, meaning smell",
         "pinyin": "e",
-        "url": loli20180331+"5abf7a944e02a.png"
+        "url": loli20180331+"a944e02a.png"
     },
     {
         "number": "77",
@@ -768,7 +768,7 @@ module.exports = [
         "iupac": "Iridium",
         "origin": "Iris, the Greek goddess of the rainbow",
         "pinyin": "yi",
-        "url": loli20180331+"5abf7aa224351.png"
+        "url": loli20180331+"aa224351.png"
     },
     {
         "number": "78",
@@ -778,7 +778,7 @@ module.exports = [
         "iupac": "Platinum",
         "origin": "The Spanish platina, meaning little silver",
         "pinyin": "bo",
-        "url": loli20180331+"5abf7aa2c77e3.png"
+        "url": loli20180331+"aa2c77e3.png"
     },
     {
         "number": "79",
@@ -788,7 +788,7 @@ module.exports = [
         "iupac": "Gold",
         "origin": "English word (aurum in Latin)",
         "pinyin": "jin",
-        "url": loli20180331+"5abf7aa504c84.png"
+        "url": loli20180331+"aa504c84.png"
     },
     {
         "number": "80",
@@ -798,7 +798,7 @@ module.exports = [
         "iupac": "Mercury",
         "origin": "The New Latin name mercurius, named after the Roman god (Hg from former name hydrargyrum, from Greek hydr-, water, and argyros, silver)",
         "pinyin": "gong",
-        "url": loli20180331+"5abf7aa620095.png"
+        "url": loli20180331+"aa620095.png"
     },
     {
         "number": "81",
@@ -808,7 +808,7 @@ module.exports = [
         "iupac": "Thallium",
         "origin": "The Greek thallos, green twig",
         "pinyin": "ta",
-        "url": loli20180331+"5abf7aa6a73bb.png"
+        "url": loli20180331+"aa6a73bb.png"
     },
     {
         "number": "82",
@@ -818,7 +818,7 @@ module.exports = [
         "iupac": "Lead",
         "origin": "English word (plumbum in Latin)",
         "pinyin": "qian",
-        "url": loli20180331+"5abf7aa7ab47f.png"
+        "url": loli20180331+"aa7ab47f.png"
     },
     {
         "number": "83",
@@ -828,7 +828,7 @@ module.exports = [
         "iupac": "Bismuth",
         "origin": "German word, now obsolete",
         "pinyin": "bi",
-        "url": loli20180331+"5abf7aa84e014.png"
+        "url": loli20180331+"aa84e014.png"
     },
     {
         "number": "84",
@@ -838,7 +838,7 @@ module.exports = [
         "iupac": "Polonium",
         "origin": "Polonia, the New Latin name for Poland",
         "pinyin": "po",
-        "url": loli20180331+"5abf7aa90f8ee.png"
+        "url": loli20180331+"aa90f8ee.png"
     },
     {
         "number": "85",
@@ -848,7 +848,7 @@ module.exports = [
         "iupac": "Astatine",
         "origin": "The Greek astatos, unstable",
         "pinyin": "ai",
-        "url": loli20180331+"5abf7aaa80948.png"
+        "url": loli20180331+"aaa80948.png"
     },
     {
         "number": "86",
@@ -858,7 +858,7 @@ module.exports = [
         "iupac": "Radon",
         "origin": "From radium, as it was first detected as an emission from radium during radioactive decay",
         "pinyin": "dong",
-        "url": loli20180331+"5abf7aab4a027.png"
+        "url": loli20180331+"aab4a027.png"
     },
     {
         "number": "87",
@@ -868,7 +868,7 @@ module.exports = [
         "iupac": "Francium",
         "origin": "Francia, the New Latin name for France",
         "pinyin": "fang",
-        "url": loli20180331+"5abf7abb16878.png"
+        "url": loli20180331+"abb16878.png"
     },
     {
         "number": "88",
@@ -878,7 +878,7 @@ module.exports = [
         "iupac": "Radium",
         "origin": "The Latin radius, ray",
         "pinyin": "lei",
-        "url": loli20180331+"5abf7abc32253.png"
+        "url": loli20180331+"abc32253.png"
     },
     {
         "number": "89",
@@ -888,7 +888,7 @@ module.exports = [
         "iupac": "Actinium",
         "origin": "The Greek aktis, ray",
         "pinyin": "a",
-        "url": loli20180331+"5abf7abc89fdb.png"
+        "url": loli20180331+"abc89fdb.png"
     },
     {
         "number": "90",
@@ -898,7 +898,7 @@ module.exports = [
         "iupac": "Thorium",
         "origin": "Thor, the Scandinavian god of thunder",
         "pinyin": "tu",
-        "url": loli20180331+"5abf7abd49cc0.png"
+        "url": loli20180331+"abd49cc0.png"
     },
     {
         "number": "91",
@@ -908,7 +908,7 @@ module.exports = [
         "iupac": "Protactinium",
         "origin": "The Greek protos, first, and actinium, which is produced through the radioactive decay of protactinium",
         "pinyin": "pu",
-        "url": loli20180331+"5abf7abe7ae37.png"
+        "url": loli20180331+"abe7ae37.png"
     },
     {
         "number": "92",
@@ -918,7 +918,7 @@ module.exports = [
         "iupac": "Uranium",
         "origin": "Uranus, the seventh planet in the Solar System",
         "pinyin": "you",
-        "url": loli20180331+"5abf7abf32902.png"
+        "url": loli20180331+"abf32902.png"
     },
     {
         "number": "93",
@@ -928,7 +928,7 @@ module.exports = [
         "iupac": "Neptunium",
         "origin": "Neptune, the eighth planet in the Solar System",
         "pinyin": "na",
-        "url": loli20180331+"5abf7ac06514c.png"
+        "url": loli20180331+"ac06514c.png"
     },
     {
         "number": "94",
@@ -938,7 +938,7 @@ module.exports = [
         "iupac": "Plutonium",
         "origin": "Pluto, a dwarf planet in the Solar System (considered the ninth planet at the time)",
         "pinyin": "bu",
-        "url": loli20180331+"5abf7ac10abb0.png"
+        "url": loli20180331+"ac10abb0.png"
     },
     {
         "number": "95",
@@ -948,7 +948,7 @@ module.exports = [
         "iupac": "Americium",
         "origin": "The Americas, as the element was first synthesized on the continent, by analogy with europium",
         "pinyin": "mei",
-        "url": loli20180331+"5abf7ac19b953.png"
+        "url": loli20180331+"ac19b953.png"
     },
     {
         "number": "96",
@@ -958,7 +958,7 @@ module.exports = [
         "iupac": "Curium",
         "origin": "Pierre Curie, a physicist, and Marie Curie, a physicist and chemist, named after great scientists by analogy with gadolinium",
         "pinyin": "ju",
-        "url": loli20180331+"5abf7ac2d813a.png"
+        "url": loli20180331+"ac2d813a.png"
     },
     {
         "number": "97",
@@ -968,7 +968,7 @@ module.exports = [
         "iupac": "Berkelium",
         "origin": "Berkeley, California, where the element was first synthesized, by analogy with terbium",
         "pinyin": "pei",
-        "url": loli20180331+"5abf7ad12c60f.png"
+        "url": loli20180331+"ad12c60f.png"
     },
     {
         "number": "98",
@@ -978,7 +978,7 @@ module.exports = [
         "iupac": "Californium",
         "origin": "California, where the element was first synthesized",
         "pinyin": "kai",
-        "url": loli20180331+"5abf7ad1d43f6.png"
+        "url": loli20180331+"ad1d43f6.png"
     },
     {
         "number": "99",
@@ -988,7 +988,7 @@ module.exports = [
         "iupac": "Einsteinium",
         "origin": "Albert Einstein, physicist",
         "pinyin": "ai",
-        "url": loli20180331+"5abf7ad2f0be1.png"
+        "url": loli20180331+"ad2f0be1.png"
     },
     {
         "number": "100",
@@ -998,7 +998,7 @@ module.exports = [
         "iupac": "Fermium",
         "origin": "Enrico Fermi, physicist",
         "pinyin": "fei",
-        "url": loli20180331+"5abf7ad34e21a.png"
+        "url": loli20180331+"ad34e21a.png"
     },
     {
         "number": "101",
@@ -1008,7 +1008,7 @@ module.exports = [
         "iupac": "Mendelevium",
         "origin": "Dmitri Mendeleev, chemist and inventor",
         "pinyin": "men",
-        "url": loli20180331+"5abf7ad47e7a1.png"
+        "url": loli20180331+"ad47e7a1.png"
     },
     {
         "number": "102",
@@ -1018,7 +1018,7 @@ module.exports = [
         "iupac": "Nobelium",
         "origin": "Alfred Nobel, chemist, engineer, innovator, and armaments manufacturer",
         "pinyin": "nuo",
-        "url": loli20180331+"5abf7b1b94af3.png"
+        "url": loli20180331+"b1b94af3.png"
     },
     {
         "number": "103",
@@ -1028,7 +1028,7 @@ module.exports = [
         "iupac": "Lawrencium",
         "origin": "Ernest O. Lawrence, physicist",
         "pinyin": "lao",
-        "url": loli20180331+"5abf7b1c8d810.png"
+        "url": loli20180331+"b1c8d810.png"
     },
     {
         "number": "104",
@@ -1038,7 +1038,7 @@ module.exports = [
         "iupac": "Rutherfordium",
         "origin": "Ernest Rutherford, chemist and physicist",
         "pinyin": "lu",
-        "url": loli20180331+"5abf7b1d1f497.png"
+        "url": loli20180331+"b1d1f497.png"
     },
     {
         "number": "105",
@@ -1048,7 +1048,7 @@ module.exports = [
         "iupac": "Dubnium",
         "origin": "Dubna, Russia",
         "pinyin": "du",
-        "url": loli20180331+"5abf7b1de3d3b.png"
+        "url": loli20180331+"b1de3d3b.png"
     },
     {
         "number": "106",
@@ -1058,7 +1058,7 @@ module.exports = [
         "iupac": "Seaborgium",
         "origin": "Glenn T. Seaborg, scientist",
         "pinyin": "xi",
-        "url": loli20180331+"5abf7b1ec4739.png"
+        "url": loli20180331+"b1ec4739.png"
     },
     {
         "number": "107",
@@ -1068,7 +1068,7 @@ module.exports = [
         "iupac": "Bohrium",
         "origin": "Niels Bohr, physicist",
         "pinyin": "bo",
-        "url": loli20180331+"5abf7b1f9e6e7.png"
+        "url": loli20180331+"b1f9e6e7.png"
     },
     {
         "number": "108",
@@ -1078,7 +1078,7 @@ module.exports = [
         "iupac": "Hassium",
         "origin": "Hesse, Germany, where the element was first synthesized",
         "pinyin": "hei",
-        "url": loli20180331+"5abf7b20bdab8.png"
+        "url": loli20180331+"b20bdab8.png"
     },
     {
         "number": "109",
@@ -1088,7 +1088,7 @@ module.exports = [
         "iupac": "Meitnerium",
         "origin": "Lise Meitner, physicist",
         "pinyin": "mai",
-        "url": loli20180331+"5abf7b2169856.png"
+        "url": loli20180331+"b2169856.png"
     },
     {
         "number": "110",
@@ -1098,7 +1098,7 @@ module.exports = [
         "iupac": "Darmstadtium",
         "origin": "Darmstadt, Germany, where the element was first synthesized",
         "pinyin": "da",
-        "url": loli20180331+"5abf7b220423c.png"
+        "url": loli20180331+"b220423c.png"
     },
     {
         "number": "111",
@@ -1108,7 +1108,7 @@ module.exports = [
         "iupac": "Roentgenium",
         "origin": "Wilhelm Conrad Röntgen, physicist",
         "pinyin": "lun",
-        "url": loli20180331+"5abf7b22ae9bf.png"
+        "url": loli20180331+"b22ae9bf.png"
     },
     {
         "number": "112",
@@ -1118,7 +1118,7 @@ module.exports = [
         "iupac": "Copernicium",
         "origin": "Nicolaus Copernicus, astronomer",
         "pinyin": "ge",
-        "url": loli20180331+"5abf7b2f1ce34.png"
+        "url": loli20180331+"b2f1ce34.png"
     },
     {
         "number": "113",
@@ -1128,7 +1128,7 @@ module.exports = [
         "iupac": "Nihonium",
         "origin": "Japanese word meaning Japan",
         "pinyin": "xi",
-        "url": loli20180331+"5abf7b2fdd0e2.png"
+        "url": loli20180331+"b2fdd0e2.png"
     },
     {
         "number": "114",
@@ -1138,7 +1138,7 @@ module.exports = [
         "iupac": "Flerovium",
         "origin": "Georgy Flyorov, physicist",
         "pinyin": "fu",
-        "url": loli20180331+"5abf7b314eced.png"
+        "url": loli20180331+"b314eced.png"
     },
     {
         "number": "115",
@@ -1148,7 +1148,7 @@ module.exports = [
         "iupac": "Moscovium",
         "origin": "In recognition of the Moscow region and honors the ancient Russian land that is the home of the Joint Institute for Nuclear Research",
         "pinyin": "mo",
-        "url": loli20180331+"5abf7b3222857.png"
+        "url": loli20180331+"b3222857.png"
     },
     {
         "number": "116",
@@ -1158,7 +1158,7 @@ module.exports = [
         "iupac": "Livermorium",
         "origin": "Lawrence Livermore National Laboratory(in Livermore, California) which collaborated with JINR on its synthesis",
         "pinyin": "li",
-        "url": loli20180331+"5abf7b32e5131.png"
+        "url": loli20180331+"b32e5131.png"
     },
     {
         "number": "117",
@@ -1168,7 +1168,7 @@ module.exports = [
         "iupac": "Tennessine",
         "origin": "In recognition of the contribution of the Tennessee region",
         "pinyin": "tian",
-        "url": loli20180331+"5abf7b33b110f.png"
+        "url": loli20180331+"b33b110f.png"
     },
     {
         "number": "118",
@@ -1178,6 +1178,6 @@ module.exports = [
         "iupac": "Oganesson",
         "origin": "Honoring a scientist and recognizes Professor Yuri Oganessian",
         "pinyin": "ao",
-        "url": loli20180331+"5abf7b345da2c.png"
+        "url": loli20180331+"b345da2c.png"
     }
 ]
