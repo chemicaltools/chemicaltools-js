@@ -66,22 +66,12 @@ var calculateMass = function (x) {
                     }
                     i2--;
                     mulright[n] = i2;
-                    if (i2 + 1 > l)
-                        y3 = "a";
-                    else
-                        y3 = x[i2];
-                    if (calasc(y3) == 3) {
-                        if (i2 + 2 > l)
-                            y4 = "a";
-                        else
-                            y4 = x[i2 + 1];
-                        if (calasc(y4) == 3)
-                            mulnum[n] = parseInt(y3 + y4);
-                        else
-                            mulnum[n] = parseInt(y3);
-                    } else {
-                        mulnum[n] = 1;
+                    var num = "";
+                    while (i2 < l and calasc(x[i2]) == 3){
+                        num += x[i2];
+                        i2++;
                     }
+                    mulnum[n] = Math.max(parseInt(num), 1)
                 }
                 i++;
             }
