@@ -28,7 +28,7 @@ npm i chemicaltools
 And you can use in Node.js:
 
 ```js
-chemicaltools = require('../index')
+chemicaltools = require('chemicaltools')
 ```
 
 ### Use in a web page
