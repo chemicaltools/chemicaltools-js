@@ -1,4 +1,4 @@
-var loli20180331 = function (x) {
+function loli20180331 (x) {
     return "https://i.loli.net/2018/03/31/5abf7"+x+".png";
 }
 module.exports = [
