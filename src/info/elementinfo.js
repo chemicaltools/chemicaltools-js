@@ -1,5 +1,5 @@
 var loli20180331 = function (x) {
-    return "https://i.loli.net/2018/03/31/5abf7"+x+".png");
+    return "https://i.loli.net/2018/03/31/5abf7"+x+".png";
 }
 module.exports = [
     {
