@@ -872,8 +872,8 @@ var origin = [
   },
   {
     1: "𫓧",
-    2: "Fl",
     3: 289,
+    4: "Flerovium",
     5: "Georgy Flyorov, physicist",
     6: "fu",
     7: "b314eced"
@@ -906,8 +906,8 @@ var origin = [
   },
   {
     1: "气奥",
-    2: "Og",
     3: 293,
+    4: "Oganesson",
     5: "Honoring a scientist and recognizes Professor Yuri Oganessian",
     6: "ao",
     7: "b345da2c"
