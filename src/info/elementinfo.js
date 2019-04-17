@@ -945,5 +945,4 @@ var getnew = function(ori) {
   }
   return n;
 };
-console.log(getnew(origin));
 module.exports = getnew(origin);
