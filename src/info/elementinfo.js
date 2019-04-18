@@ -949,7 +949,7 @@ var elementinfo = getnew(origin);
 var search = function (kind, x) {
     for (var i in elementinfo) {
         var info = elementinfo[i];
-        if (info[kind].toLowerCase() == x.toLowerCase()) {
+        if (String(info[kind]).toLowerCase() == x.toLowerCase()) {
             return info;
         }
     }
