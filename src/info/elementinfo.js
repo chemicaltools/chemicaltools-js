@@ -945,4 +945,15 @@ var getnew = function(ori) {
   }
   return n;
 };
-module.exports = getnew(origin);
+var elementinfo = getnew(origin);
+var search = function (kind, x) {
+    for (var i in elementinfo) {
+        var info = elementinfo[i];
+        if (info[kind] == x) {
+            return info;
+        }
+    }
+    return null;
+}
+exports.elementinfo = elementinfo;
+exports.search = search;
