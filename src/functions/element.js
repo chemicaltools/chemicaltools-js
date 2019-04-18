@@ -1,6 +1,5 @@
 var pinyin = require("tiny-pinyin");
 var elementinfomodule = require("../info/elementinfo");
-var elementinfo = elementinfomodule.elementinfo
 var search = elementinfomodule.search
 var searchelement = function (input) {
     try {
