@@ -1,5 +1,6 @@
-var elementinfo = require("../info/elementinfo");
-
+var elementinfomodule = require("../info/elementinfo");
+var search = elementinfomodule.search
+var elementinfo = elementinfomodule.elementinfo
 var calasc = function (x) {
     var n = x[0].charCodeAt();
     if (n > 64 && n < 91)
@@ -15,13 +16,8 @@ var calasc = function (x) {
     return 0;
 }
 var elementchoose = function (x) {
-    for (var i in elementinfo) {
-        var info = elementinfo[i];
-        if (info.symbol == x) {
-            return info.number - 1;
-        }
-    }
-    return -1;
+    var info = search("symbol", x)
+    return (info?info.number:0) - 1;
 }
 var getNumber = function (x, index){
     var num = "";
