@@ -1,6 +1,7 @@
 # chemicaltools-js
 
-[![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
+[![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fnjzjz%2Fchemicaltools-js.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fnjzjz%2Fchemicaltools-js?ref=badge_shield)
+
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/njzjz/chemicaltools-js/blob/master/LICENSE.MIT)
 [![License](https://img.shields.io/badge/License-Anti%20996-blue.svg)](https://github.com/njzjz/chemicaltools-js/blob/master/LICENSE.996ICU)
 [![Version](https://img.shields.io/npm/v/chemicaltools.svg)](https://npmjs.com/package/chemicaltools)
@@ -57,3 +58,7 @@ console.log(JSON.stringify(chemicaltools.makeQuestion("name", "iupac")));
 console.log(JSON.stringify(chemicaltools.correctAnswer("铷", "Rubidiutm", "name", "iupac")));
 // {"correct":false,"question":"铷","correct_answer":"Rubidium","answer":"Rubidiutm"}
 ```
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fnjzjz%2Fchemicaltools-js.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fnjzjz%2Fchemicaltools-js?ref=badge_large)
