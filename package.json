@@ -43,7 +43,7 @@
     "full-icu": "1.2.1",
     "mocha": "6.1.4",
     "nyc": "14.1.0",
-    "semantic-release": "15.13.3",
+    "semantic-release": "15.13.12",
     "uglifyjs-webpack-plugin": "2.1.2",
     "webpack": "4.30.0",
     "webpack-cli": "3.3.2"
