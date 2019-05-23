@@ -1,36 +1,42 @@
 workflow "Test and release" {
   on = "push"
-  resolves = ["Borales/actions-yarn@master-4"]
+  resolves = ["yarn exec semantic-release"]
 }
 
-action "Borales/actions-yarn@master" {
+action "yarn install" {
   uses = "Borales/actions-yarn@master"
   args = "install"
 }
 
-action "Borales/actions-yarn@master-1" {
+action "yarn test" {
   uses = "Borales/actions-yarn@master"
-  needs = ["Borales/actions-yarn@master"]
   args = "test"
+  needs = ["yarn install"]
 }
 
-action "Borales/actions-yarn@master-2" {
+action "yarn build" {
   uses = "Borales/actions-yarn@master"
-  needs = ["Borales/actions-yarn@master-1"]
   args = "build"
   secrets = ["BUNDLESIZE_GITHUB_TOKEN"]
+  needs = ["yarn test"]
+  env = {
+    GITHUB_REPOSITORY = "chemicaltools-js"
+    CI_REPO_OWNER = "njzjz"
+    CI_COMMIT_MESSAGE = ""
+    GITHUB_SHA = "$CI_COMMIT_SHA"
+  }
 }
 
-action "Borales/actions-yarn@master-3" {
+action "yarn coverage" {
   uses = "Borales/actions-yarn@master"
-  needs = ["Borales/actions-yarn@master-2"]
   args = "coverage"
   secrets = ["CODECOV_TOKEN"]
+  needs = ["yarn build"]
 }
 
-action "Borales/actions-yarn@master-4" {
+action "yarn exec semantic-release" {
   uses = "Borales/actions-yarn@master"
-  needs = ["Borales/actions-yarn@master-3"]
   args = "exec semantic-release"
   secrets = ["GH_TOKEN", "NPM_TOKEN"]
+  needs = ["yarn coverage"]
 }
