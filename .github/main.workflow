@@ -20,7 +20,7 @@ action "yarn build" {
   secrets = ["BUNDLESIZE_GITHUB_TOKEN"]
   needs = ["yarn test"]
   env = {
-    GITHUB_REPOSITORY = "chemicaltools-js"
+    CI_REPO_OWNER = "chemicaltools-js"
     CI_REPO_OWNER = "njzjz"
     CI_COMMIT_MESSAGE = ""
     CI_COMMIT_SHA = "$GITHUB_SHA"
