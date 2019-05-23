@@ -24,7 +24,6 @@ action "yarn build" {
     CI_REPO_NAME = "chemicaltools-js"
     CI_REPO_OWNER = "njzjz"
     CI_COMMIT_MESSAGE = ""
-    CI_COMMIT_SHA = "$GITHUB_SHA"
   }
 }
 
