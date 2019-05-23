@@ -5,8 +5,8 @@
   "main": "src/index.js",
   "scripts": {
     "test": "NODE_ICU_DATA='node_modules/full-icu' nyc mocha test/test",
-    "coverage": "nyc report --reporter=text-lcov > coverage.lcov && CI_COMMIT_SHA=$GITHUB_SHA codecov",
-    "build": "webpack -p --progress && bundlesize"
+    "coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov",
+    "build": "webpack -p --progress && CI_COMMIT_SHA=$GITHUB_SHA bundlesize"
   },
   "bundlesize": [
     {
