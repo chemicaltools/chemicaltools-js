@@ -19,12 +19,6 @@ action "yarn build" {
   args = "build"
   secrets = ["BUNDLESIZE_GITHUB_TOKEN"]
   needs = ["yarn test"]
-  env = {
-    CI = "github_actions"
-    CI_REPO_NAME = "chemicaltools-js"
-    CI_REPO_OWNER = "njzjz"
-    CI_COMMIT_MESSAGE = ""
-  }
 }
 
 action "yarn coverage" {
