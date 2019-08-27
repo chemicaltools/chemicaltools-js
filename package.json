@@ -45,7 +45,7 @@
     "nyc": "14.1.1",
     "semantic-release": "15.13.24",
     "uglifyjs-webpack-plugin": "2.2.0",
-    "webpack": "4.39.2",
+    "webpack": "4.39.3",
     "webpack-cli": "3.3.7"
   },
   "release": {
