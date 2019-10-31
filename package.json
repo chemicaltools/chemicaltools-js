@@ -46,7 +46,7 @@
     "semantic-release": "15.13.28",
     "uglifyjs-webpack-plugin": "2.2.0",
     "webpack": "4.41.2",
-    "webpack-cli": "3.3.9"
+    "webpack-cli": "3.3.10"
   },
   "release": {
     "plugins": [
