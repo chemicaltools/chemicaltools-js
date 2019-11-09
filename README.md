@@ -1,7 +1,6 @@
 # chemicaltools-js
 
-[![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fnjzjz%2Fchemicaltools-js.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fnjzjz%2Fchemicaltools-js?ref=badge_shield)
-
+[![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/njzjz/chemicaltools-js/blob/master/LICENSE.MIT)
 [![License](https://img.shields.io/badge/License-Anti%20996-blue.svg)](https://github.com/njzjz/chemicaltools-js/blob/master/LICENSE.996ICU)
 [![Version](https://img.shields.io/npm/v/chemicaltools.svg)](https://npmjs.com/package/chemicaltools)
@@ -13,10 +12,6 @@
 [![jsdelivr](https://data.jsdelivr.com/v1/package/npm/chemicaltools/badge?style=rounded)](https://www.jsdelivr.com/package/npm/chemicaltools)
 
 Chemical Tools for JavaScript.
-
-## Dependencies
-
-* [tiny-pinyin](https://github.com/creeperyang/pinyin)
 
 ## Installion
 
@@ -59,6 +54,3 @@ console.log(JSON.stringify(chemicaltools.correctAnswer("铷", "Rubidiutm", "name
 // {"correct":false,"question":"铷","correct_answer":"Rubidium","answer":"Rubidiutm"}
 ```
 
-
-## License
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fnjzjz%2Fchemicaltools-js.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fnjzjz%2Fchemicaltools-js?ref=badge_large)
