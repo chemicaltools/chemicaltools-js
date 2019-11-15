@@ -37,7 +37,7 @@ var calculateMass = function(x) {
   if (l > 0) {
     for (var i = 0; i < l; i++) {
       mulnumber[i] = 1;
-      y1 = x[i];
+      var y1 = x[i];
       if (calasc(y1) == 4) mulif[i] = 1;
       else if (calasc(y1) == 5) mulif[i] = -1;
       else mulif[i] = 0;
@@ -74,7 +74,7 @@ var calculateMass = function(x) {
           }
           var n = elementchoose(y1);
           if (n != -1) {
-            num = getNumber(x, i + 1);
+            var num = getNumber(x, i + 1);
             atomnumber[n] += num.n * mulnumber[i2];
             i += num.l;
           }

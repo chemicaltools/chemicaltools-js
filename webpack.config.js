@@ -1,8 +1,4 @@
-const webpack = require('webpack')
 const path = require('path')
-
-
-
 
 /*
  * SplitChunksPlugin is enabled by default and replaced
@@ -24,11 +20,6 @@ const path = require('path')
  * https://github.com/webpack-contrib/uglifyjs-webpack-plugin
  *
  */
-
-const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
-
-
-
 
 module.exports = {
   module: {
