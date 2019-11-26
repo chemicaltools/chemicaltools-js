@@ -863,7 +863,7 @@ var origin = [
     7: "b2f1ce34"
   },
   {
-    1: "鉨",
+    1: "鿭",
     2: "Nh",
     3: 284,
     4: "Nihonium",
@@ -896,7 +896,7 @@ var origin = [
     7: "b32e5131"
   },
   {
-    1: "石田",
+    1: "鿬",
     2: "Ts",
     3: 295,
     4: "Tennessine",
@@ -905,7 +905,7 @@ var origin = [
     7: "b33b110f"
   },
   {
-    1: "气奥",
+    1: "鿫",
     3: 293,
     4: "Oganesson",
     5: "Honoring a scientist and recognizes Professor Yuri Oganessian",
