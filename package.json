@@ -33,7 +33,7 @@
   },
   "devDependencies": {
     "@babel/core": "7.7.5",
-    "@babel/preset-env": "7.7.5",
+    "@babel/preset-env": "7.7.6",
     "@semantic-release/git": "7.0.18",
     "@webpack-cli/init": "0.3.0",
     "babel-loader": "8.0.6",
