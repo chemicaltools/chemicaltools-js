@@ -3,9 +3,6 @@
   "version": "1.2.10",
   "description": "Chemical Tools for Chemistry students.",
   "main": "dist/main.js",
-  "files": [
-    "dist/**"
-  ],
   "scripts": {
     "test": "nyc mocha test/test",
     "coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov",
