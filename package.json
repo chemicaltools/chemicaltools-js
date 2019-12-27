@@ -2,7 +2,8 @@
   "name": "chemicaltools",
   "version": "1.2.9",
   "description": "Chemical Tools for Chemistry students.",
-  "main": "src/index.js",
+  "main": "dist/main.js",
+  "files": ["dist/**"],
   "scripts": {
     "test": "nyc mocha test/test",
     "coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov",
