@@ -42,7 +42,8 @@ module.exports = {
   output: {
     chunkFilename: '[name].js',
     filename: '[name].js',
-    path: path.resolve(__dirname, 'dist')
+    path: path.resolve(__dirname, 'dist'),
+    libraryExport: 'default'
   },
 
   mode: 'production',
