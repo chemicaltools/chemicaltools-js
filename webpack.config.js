@@ -43,7 +43,8 @@ module.exports = {
     chunkFilename: '[name].js',
     filename: '[name].js',
     path: path.resolve(__dirname, 'dist'),
-    libraryExport: 'default'
+    libraryExport: 'default',
+    libraryTarget: 'commonjs2'
   },
 
   mode: 'production',
