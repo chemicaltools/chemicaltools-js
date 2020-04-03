@@ -41,7 +41,7 @@
     "bundlesize": "0.18.0",
     "codecov": "3.6.5",
     "mocha": "7.1.1",
-    "nyc": "15.0.0",
+    "nyc": "15.0.1",
     "semantic-release": "17.0.4",
     "uglifyjs-webpack-plugin": "2.2.0",
     "webpack": "4.42.1",
