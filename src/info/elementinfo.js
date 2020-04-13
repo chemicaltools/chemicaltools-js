@@ -940,7 +940,7 @@ var getnew = function(ori) {
         newinfo["pinyin"] = "";
       }
     }
-    newinfo["url"] = "https://i.loli.net/2018/03/31/5abf7" + info[7] + ".png";
+    newinfo["url"] = "https://images.weserv.nl/?url=i.loli.net/2018/03/31/5abf7" + info[7] + ".png";
     n[i] = newinfo;
   }
   return n;
