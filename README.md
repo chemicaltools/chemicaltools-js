@@ -7,7 +7,6 @@
 [![Build Status](https://travis-ci.com/njzjz/chemicaltools-js.png?branch=master)](https://travis-ci.com/njzjz/chemicaltools-js)
 [![codecov](https://codecov.io/gh/njzjz/chemicaltools-js/branch/master/graph/badge.svg)](https://codecov.io/gh/njzjz/chemicaltools-js)
 [![Dependency Status](https://david-dm.org/njzjz/chemicaltools-js.svg)](https://david-dm.org/njzjz/chemicaltools-js)
-[![Greenkeeper badge](https://badges.greenkeeper.io/njzjz/chemicaltools-js.svg)](https://greenkeeper.io/)
 [![Downloads](https://img.shields.io/npm/dm/chemicaltools.svg)](https://npmjs.com/package/chemicaltools)
 [![jsdelivr](https://data.jsdelivr.com/v1/package/npm/chemicaltools/badge?style=rounded)](https://www.jsdelivr.com/package/npm/chemicaltools)
 
