@@ -1,4 +1,5 @@
-const path = require('path')
+const path = require('path');
+const TerserPlugin = require('terser-webpack-plugin');
 
 /*
  * SplitChunksPlugin is enabled by default and replaced
@@ -10,14 +11,6 @@ const path = require('path')
  * and was added as an educational example.
  *
  * https://webpack.js.org/plugins/split-chunks-plugin/
- *
- */
-
-/*
- * We've enabled UglifyJSPlugin for you! This minifies your app
- * in order to load faster and run less javascript.
- *
- * https://github.com/webpack-contrib/uglifyjs-webpack-plugin
  *
  */
 
@@ -50,6 +43,8 @@ module.exports = {
   mode: 'production',
 
   optimization: {
+    minimize: true,
+    minimizer: [new TerserPlugin()],
     splitChunks: {
       cacheGroups: {
         vendors: {
