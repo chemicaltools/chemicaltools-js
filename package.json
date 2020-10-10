@@ -6,7 +6,7 @@
   "scripts": {
     "test": "nyc mocha test/test",
     "coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov",
-    "build": "webpack --prod --progress && bundlesize"
+    "build": "webpack --mode=production --progress && bundlesize"
   },
   "bundlesize": [
     {
