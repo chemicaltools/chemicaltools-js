@@ -6,7 +6,7 @@
   "scripts": {
     "test": "nyc mocha test/test",
     "coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov",
-    "build": "webpack -p --progress && bundlesize"
+    "build": "webpack --mode=production --progress && bundlesize"
   },
   "bundlesize": [
     {
@@ -45,7 +45,7 @@
     "semantic-release": "17.1.2",
     "uglifyjs-webpack-plugin": "2.2.0",
     "webpack": "4.44.2",
-    "webpack-cli": "3.3.12"
+    "webpack-cli": "4.0.0"
   },
   "release": {
     "plugins": [
