@@ -37,7 +37,9 @@ module.exports = {
     filename: '[name].js',
     path: path.resolve(__dirname, 'dist'),
     libraryExport: 'default',
-    libraryTarget: 'commonjs2'
+    libraryTarget: 'umd',
+    globalObject: 'this',
+    library: 'chemicaltools',
   },
 
   mode: 'production',
