@@ -36,7 +36,7 @@ module.exports = {
     chunkFilename: '[name].js',
     filename: '[name].js',
     path: path.resolve(__dirname, 'dist'),
-    libraryExport: 'default',
+    libraryTarget: 'umd',
     globalObject: 'this',
     library: 'chemicaltools',
   },
