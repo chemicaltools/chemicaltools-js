@@ -28,8 +28,6 @@ jobs:
     - run: yarn install
     - run: yarn test
     - run: yarn build
-      env:
-        BUNDLESIZE_GITHUB_TOKEN: ${{ secrets.BUNDLESIZE_GITHUB_TOKEN }}
     - run: yarn coverage
       env:
         CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
