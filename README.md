@@ -4,9 +4,7 @@
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/njzjz/chemicaltools-js/blob/master/LICENSE.MIT)
 [![License](https://img.shields.io/badge/License-Anti%20996-blue.svg)](https://github.com/njzjz/chemicaltools-js/blob/master/LICENSE.996ICU)
 [![Version](https://img.shields.io/npm/v/chemicaltools.svg)](https://npmjs.com/package/chemicaltools)
-[![Build Status](https://travis-ci.com/njzjz/chemicaltools-js.png?branch=master)](https://travis-ci.com/njzjz/chemicaltools-js)
 [![codecov](https://codecov.io/gh/njzjz/chemicaltools-js/branch/master/graph/badge.svg)](https://codecov.io/gh/njzjz/chemicaltools-js)
-[![Dependency Status](https://david-dm.org/njzjz/chemicaltools-js.svg)](https://david-dm.org/njzjz/chemicaltools-js)
 [![Downloads](https://img.shields.io/npm/dm/chemicaltools.svg)](https://npmjs.com/package/chemicaltools)
 [![jsdelivr](https://data.jsdelivr.com/v1/package/npm/chemicaltools/badge?style=rounded)](https://www.jsdelivr.com/package/npm/chemicaltools)
 
