@@ -42,7 +42,7 @@
     "codecov": "3.8.3",
     "mocha": "10.0.0",
     "nyc": "15.1.0",
-    "semantic-release": "18.0.1",
+    "semantic-release": "19.0.2",
     "terser-webpack-plugin": "5.3.1",
     "webpack": "5.72.1",
     "webpack-cli": "4.9.2"
