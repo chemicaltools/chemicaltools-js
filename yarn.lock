@@ -3522,9 +3522,9 @@ flat@^5.0.2:
   integrity sha512-b6suED+5/3rTpUBdG1gupIl8MPFCAMA0QXwmljLhvCUKcUvdE4gWky9zpuGCcXHOsz4J9wPGNWq6OKpmIzz3hQ==
 
 flow-parser@0.*:
-  version "0.198.0"
-  resolved "https://registry.yarnpkg.com/flow-parser/-/flow-parser-0.198.0.tgz#ddb3a2698e28b3cea0e379a24790012d6ae0e812"
-  integrity sha512-uMSUGYk2qUKe22W9+h3md2I9BiossGdrqwiOBPyiKW9cpnbSdUkV4TU5Pc5QESkrvIKHYid1vbL5ZadOxnewog==
+  version "0.198.1"
+  resolved "https://registry.yarnpkg.com/flow-parser/-/flow-parser-0.198.1.tgz#56a77de3637c0f39284d4a112868f0cbfaa72012"
+  integrity sha512-WgmXdj+QWApMqtnMTeG7bF6tpX/+jsH5r/i61ukFCSXVgsaldLa/KOy+hcwQ3dbxsMGYM5iLQme6Z0/s0z2OkQ==
 
 follow-redirects@^1.14.0:
   version "1.15.2"
